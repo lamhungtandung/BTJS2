@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+        integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+</head>
+
+<body>
+
+    <div class="w-50 py-5">
+        <h2>BT1</h2>
+        <div class="form-group">
+            <label for="luong1ngay">Nhap luong 1 ngay</label>
+            <input type="number" class="form-control" id="luong1ngay">
+        </div>
+        <div class="form-group">
+            <label for="songaylam">Nhap so ngay lam</label>
+            <input type="number" class="form-control" id="songaylam">
+        </div>
+        <button onclick="tinhtienluong()" type="button" id="btntinh" class="btn btn-success">Tinh</button>
+        </form>
+        <p class="alert alert-info" id="txtResult"></p>
+    </div>
+    </div>
+    <div class="w-50 py-5">
+        <h2>BT2</h2>
+        <div class="form-group">
+            <label for="sothuc1">Nhap so thuc 1</label>
+            <input type="number" class="form-control" id="sothuc1">
+        </div>
+        <div class="form-group">
+            <label for="sothuc2">Nhap so thuc 2</label>
+            <input type="number" class="form-control" id="sothuc2">
+        </div>
+        <div class="form-group">
+            <label for="sothuc3">Nhap so thuc 3</label>
+            <input type="number" class="form-control" id="sothuc3">
+        </div>
+        <div class="form-group">
+            <label for="sothuc4">Nhap so thuc 4</label>
+            <input type="number" class="form-control" id="sothuc4">
+        </div>
+        <div class="form-group">
+            <label for="sothuc5">Nhap so thuc 5</label>
+            <input type="number" class="form-control" id="sothuc5">
+        </div>
+        <button onclick="giatriTB()" type="button" id="btntinh" class="btn btn-success">Tinh</button>
+        </form>
+        <p class="alert alert-info" id="txtResult2"></p>
+    </div>
+
+<div class="w-50 py-5">
+    <h2>BT3</h2>
+    <div class="form-group">
+        <label for="dola">Nhap so tien can doi</label>
+        <input type="number" class="form-control" id="dola">
+    </div>
+    <button onclick="doitien()" type="button" id="btntinh" class="btn btn-success">Tinh</button>
+</form>
+<p class="alert alert-info" id="txtResult3"></p>
+</div>
+<div class="w-50 py-5">
+    <h2>BT4</h2>
+    <div class="form-group">
+        <label for="chieudai">Nhap Chieu Dai</label>
+        <input type="number" class="form-control" id="chieudai">
+    </div>
+    <div class="form-group">
+        <label for="chieurong">Nhap Chieu Rong</label>
+        <input type="number" class="form-control" id="chieurong">
+    </div>
+
+    <button onclick="DTCV()" type="button" id="btntinh" class="btn btn-success">Tinh</button>
+</form>
+<p class="alert alert-info" id="txtResult4">Dien Tich</p>
+</form>
+<p class="alert alert-info" id="txtResult5">Chu vi</p>
+</div>
+
+<div class="w-50 py-5">
+    <h2>BT5</h2>
+    <div class="form-group">
+        <label for="sothuc">Nhap so co 2 chu so</label>
+        <input type="number" class="form-control" id="sothuc">
+    </div>
+    <button onclick="tong2kiso()" type="button" id="btntinh" class="btn btn-success">Tinh</button>
+</form>
+<p class="alert alert-info" id="txtResult6"></p>
+</div>
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF"
+        crossorigin="anonymous"></script>
+
+    <script src="./JS/BT1.js"></script>
+    <script src="./JS/BT2.js"></script>
+    <script src="./JS/BT3.js"></script>
+    <script src="./JS/BT4.js"></script>
+    <script src="./JS/BT5.js"></script>
+</body>
+
+</html>
